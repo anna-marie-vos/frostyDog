@@ -1,0 +1,6 @@
+.video iframe {
+  border: 10px solid #d68d03;
+  box-shadow: 10px 10px 10px grey;
+}
+
+/* see mediaQueries for sizes */

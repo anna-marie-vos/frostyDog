@@ -1,0 +1,35 @@
+.bouncePath {
+  background: url("../images/bouncePath.svg") no-repeat;
+  width: 100%;
+  height: 200px;
+}
+
+/* <article class="moveBoundary"><div class="bouncingBall"></div></article> */
+/* .moveBoundary {
+  animation: move 4s infinite alternate linear;
+  display: none;
+}
+
+.bouncingBall {
+  background: url("../images/ballSprite.png");
+  height: 144px;
+  width: 21.39px;
+  animation: bouncingBall steps(45) 1s infinite;
+}
+
+@keyframes bouncingBall {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -960px;
+  }
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+} */

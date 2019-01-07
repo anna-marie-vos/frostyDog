@@ -1,0 +1,21 @@
+[tooltip] {
+  position: relative;
+}
+
+[tooltip]:before {
+  position: absolute;
+  content: attr(tooltip);
+  bottom: -150%;
+  left: -100%;
+  text-align: center;
+  background-color: dimgrey;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.8s;
+  opacity: 0;
+}
+
+[tooltip]:hover:before {
+  opacity: 1;
+}

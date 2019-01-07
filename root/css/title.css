@@ -1,0 +1,23 @@
+.title {
+  font-size: 1.5em;
+}
+.title h1 {
+  width: 50%;
+}
+
+.title h1 span::before {
+  content: " 3D modeller";
+  animation: titleWords 3s linear infinite;
+}
+
+@keyframes titleWords {
+  0% {
+    content: " 3D modeller";
+  }
+  50% {
+    content: " Animator";
+  }
+  100% {
+    content: " Engineer";
+  }
+}
