@@ -31,6 +31,12 @@ p {
   align-items: center;
 }
 
+.column {
+  /* flex-direction: column;
+  display: flex;
+  align-items: center; */
+}
+
 .hide {
   display: none;
 }
